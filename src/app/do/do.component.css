@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-*,
+/*@import url('https://fonts.googleapis.com/css?family=Merriweather');*/
+/**,*/
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 *:before,
 *:after {
   -moz-box-sizing: border-box;
@@ -9,8 +10,8 @@
 
 html, body {
   /*background:wheat;*/
-  font-family: 'Merriweather', sans-serif;
-  padding: 1em;
+  /*font-family: 'Merriweather', sans-serif;*/
+  /*padding: 1em;*/
 }
 
 h1 {
@@ -227,7 +228,7 @@ body {
 }
 
 .rating-form input[type='radio']:checked + label:after {
-  /*right: 5px;*/
+  right: 5px;
   opacity: 1;
 }
 .rating-form label .fa {
@@ -255,7 +256,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  opacity: 0;
+  opacity: 10;
 }
 .rating-form label:hover .fa-star,
 .rating-form label:focus .fa-star,
@@ -344,3 +345,5 @@ body {
   right: 5px;
   opacity: 1;
 }
+
+
