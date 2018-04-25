@@ -15,6 +15,7 @@ import {CalendarModule} from './calendar/calendar.module';
 import { DoComponent } from './do/do.component';
 import { DoerComponent } from './doer/doer.component';
 import { IdeaComponent } from './idea/idea.component';
+import {ScModalModule} from 'angular-5-popup';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { IdeaComponent } from './idea/idea.component';
     AppRoutingModule,
     FormsModule,
     CalendarModule,
+    ScModalModule,
     // CalendarModule.forRoot()
     NgbModule.forRoot()
 // HttpClient,

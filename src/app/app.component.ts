@@ -6,5 +6,27 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'DoMoJe project';
 }
+
+
+
+// import { ModalService } from './sc-modal/modal.service';
+// export class AppComponent implements OnInit {
+//   @ViewChild("modal") modal: ModalComponent;
+//   constructor(
+//     private ms:ModalService
+//   ){
+//
+//   }
+//   openModal(id){
+//     this.modal.openModal(id);
+//   }
+//
+//   closeModal(id){
+//     this.modal.closeModal(id);
+//   }
+//
+//   ngOnInit(){
+//   }
+// }
